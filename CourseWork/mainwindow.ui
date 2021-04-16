@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QTableWidget" name="TableStocks">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>861</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="textElideMode">
+          <enum>Qt::ElideMiddle</enum>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="TableBonds">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>200</y>
+           <width>861</width>
+           <height>111</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>0</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Акции</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>0</y>
+           <width>111</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>20</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Рынок</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>750</x>
+           <y>170</y>
+           <width>55</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>170</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Облигации</string>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>320</y>
+           <width>939</width>
+           <height>336</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Выберите ценную бумагу</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="ChoosePaper">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>60</y>
+            <width>201</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>120</y>
+            <width>151</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Выберите количество</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="ChooseCount">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>150</y>
+            <width>201</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="update">
+          <property name="geometry">
+           <rect>
+            <x>680</x>
+            <y>40</y>
+            <width>131</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Обновить</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="ClientMenu">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>120</y>
+            <width>151</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Личный кабинет</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="showGraphic">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>60</y>
+            <width>131</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Посмотреть график</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="buy">
+          <property name="geometry">
+           <rect>
+            <x>250</x>
+            <y>150</y>
+            <width>101</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Купить</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShowSeriesWindow</class>
+ <widget class="QDialog" name="ShowSeriesWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>522</width>
+    <height>633</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Series</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QGroupBox" name="">
+            <widget class="QLabel" name="label">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>2</y>
+               <width>40</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Title</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>49</y>
+               <width>41</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_4">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>96</y>
+               <width>69</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Country</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_3">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>143</y>
+               <width>77</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Duration</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_8">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>191</y>
+               <width>57</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Rating</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_5">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>238</y>
+               <width>73</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Seasons</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_6">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>285</y>
+               <width>78</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Episodes</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_7">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>332</y>
+               <width>55</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Ended</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_9">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>379</y>
+               <width>118</width>
+               <height>48</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Last watched
+season</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_10">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>434</y>
+               <width>118</width>
+               <height>48</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Last watched
+episode</string>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="">
+            <widget class="QLineEdit" name="out_title">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>12</y>
+               <width>205</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="out_year">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>59</y>
+               <width>205</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="out_country">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>106</y>
+               <width>205</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="out_duration">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>153</y>
+               <width>205</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="out_rating">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>200</y>
+               <width>205</width>
+               <height>30</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="out_seasons">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>247</y>
+               <width>205</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="out_episodes">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>294</y>
+               <width>205</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="out_ended">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>341</y>
+               <width>205</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="out_lSeason">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>388</y>
+               <width>205</width>
+               <height>30</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="out_lEpisode">
+             <property name="geometry">
+              <rect>
+               <x>2</x>
+               <y>435</y>
+               <width>205</width>
+               <height>30</height>
+              </rect>
+             </property>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="CheckWatched">
+          <property name="text">
+           <string>Watched</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="OkButton">
+          <property name="text">
+           <string>Ok</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

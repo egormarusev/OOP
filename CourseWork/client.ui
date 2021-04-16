@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Client</class>
+ <widget class="QDialog" name="Client">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="1">
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QPushButton" name="myInvestment">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>40</y>
+          <width>151</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Мои инвестиции</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="backToMarket">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>170</y>
+          <width>131</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Рынок</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QLabel" name="Name">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>30</y>
+            <width>191</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>имя</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>10</y>
+            <width>281</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>ИМЯ ФАМИЛИЯ ПОЛЬЗОВАТЕЛЯ</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>0</y>
+            <width>291</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>ВЫГОДА С СОВЕРШЕННЫХ СДЕЛОК</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="Profit">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>20</y>
+            <width>211</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>20</y>
+            <width>211</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>КОПИЛКА ПРОДАЖ</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="moneyBox">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>30</y>
+            <width>201</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0">
+      <widget class="QGroupBox" name="groupBox_5">
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QPushButton" name="informationChanged">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>110</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Изменить данные пользователя</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="update">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>110</y>
+          <width>93</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Обновить</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
